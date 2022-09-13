@@ -1,0 +1,150 @@
+; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2
+
+; Information {{{
+; Mandatory
+Full name:     Dao
+Short name:    dao
+Author:        Radoslaw Jurga <radoslaw.jurga@gmail.com>
+; Optional
+Maintainer:    Radoslaw Jurga <radoslaw.jurga@gmail.com>
+Website:       https://github.com/rjurga/vim-dao
+Description:   Colorscheme inspired by chinese paintings
+License:       MIT
+; }}}
+
+; Common linked groups {{{
+; Other conventional group names (see `:help group-name`)
+Boolean           -> Constant
+Character         -> Constant
+Conditional       -> Statement
+CurSearch         -> IncSearch
+CursorLineFold    -> FoldColumn
+CursorLineSign    -> SignColumn
+Debug             -> Special
+Define            -> PreProc
+Delimiter         -> Special
+Exception         -> Statement
+Float             -> Constant
+Function          -> Identifier
+Include           -> PreProc
+Keyword           -> Statement
+Label             -> Statement
+Macro             -> PreProc
+MessageWindow     -> WarningMsg
+Number            -> Constant
+Operator          -> Statement
+PopupNotification -> WarningMsg
+PopupSelected     -> PmenuSel
+PreCondit         -> PreProc
+QuickFixLine      -> Search
+Repeat            -> Statement
+SpecialChar       -> Special
+SpecialComment    -> Special
+StatusLineTerm    -> StatusLine
+StatusLineTermNC  -> StatusLineNC
+StorageClass      -> Type
+String            -> Constant
+Structure         -> Type
+Tag               -> Special
+Typedef           -> Type
+; See `:help lCursor`
+lCursor           -> Cursor
+; }}}
+
+Background: light
+
+; Color palette {{{
+; Color name         GUI                     Base256
+Color: black         #000000                   ~
+Color: brown         #6b4d3a                   ~
+Color: darkblue      #126792                   ~
+Color: blue          #138bc6                   ~
+Color: cyan          #1e9ca7                   ~
+Color: green         #38a450                   ~
+Color: red           #f05230                   ~
+Color: magenta       #d18193                   ~
+Color: gray          #9b9c94                   ~
+Color: yellow        #e7d62c                   ~
+Color: fog           #e1dace                   ~
+Color: white         #eee8dc                   ~
+; }}}
+
+; Terminal colors {{{
+Term colors: black red green yellow blue magenta cyan white
+Term colors: black red green yellow blue magenta cyan white
+; }}}
+
+; Default highlight groups {{{
+Variant: gui 256
+; Group              Foreground        Background        Attributes
+Normal               black             white
+Terminal             black             white
+ColorColumn          none              fog
+Conceal              gray              none
+Cursor               white             brown
+CursorColumn         none              fog
+CursorLine           none              fog
+CursorLineNr         brown             fog               bold
+DiffAdd              green             black             reverse
+DiffChange           gray              black             reverse
+DiffDelete           red               black             reverse
+DiffText             green             black             bold,reverse
+Directory            blue              white             bold
+EndOfBuffer          brown             white
+ErrorMsg             red               white             reverse
+FoldColumn           brown             fog
+Folded               brown             fog               italic
+IncSearch            black             yellow            t=reverse g=standout
+LineNr               brown             fog
+MatchParen           none              none              bold
+ModeMsg              brown             white
+MoreMsg              red               white             bold
+NonText              gray              none
+Pmenu                white             brown
+PmenuSbar            none              gray
+PmenuSel             yellow            brown             reverse
+PmenuThumb           none              black
+Question             red               none              bold
+Search               black             yellow
+SignColumn           black             white
+SpecialKey           gray              none
+SpellBad             none              none              s=red undercurl
+SpellCap             none              none              s=blue undercurl
+SpellLocal           none              none              s=magenta undercurl
+SpellRare            none              none              s=cyan undercurl
+StatusLine           yellow            brown
+StatusLineNC         white             brown
+TabLine              white             brown
+TabLineFill          white             brown
+TabLineSel           yellow            brown
+Title                white             brown             bold
+VertSplit            brown             brown
+Visual               white             gray
+VisualNOS            white             gray
+WarningMsg           red               white
+WildMenu             brown             yellow
+Comment              green             none              italic
+Constant             cyan              none
+Error                red               black             reverse
+Identifier           darkblue          none
+Ignore               black             none
+PreProc              magenta           none              bold
+Special              black             none
+Statement            red               none              bold
+Todo                 green             none              bold
+Type                 blue              none              bold
+Underlined           black             none              underline
+; See `:help CursorIM`
+CursorIM             white             gray
+; See `:help window-toolbar`
+ToolbarLine          none              fog
+ToolbarButton        white             brown             bold
+; }}}
+
+; Additional highlight groups {{{
+; Add additional highlight groups here if you want
+; }}}
+
+; B/W variant {{{
+Include: _bw.colortemplate
+; }}}
