@@ -10,6 +10,7 @@ Maintainer:    Radoslaw Jurga <radoslaw.jurga@gmail.com>
 Website:       https://github.com/rjurga/vim-dao
 Description:   Colorscheme inspired by chinese paintings
 License:       MIT
+Neovim:        yes
 ; }}}
 
 ; Common linked groups {{{
