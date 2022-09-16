@@ -26,7 +26,6 @@ Define            -> PreProc
 Delimiter         -> Special
 Exception         -> Statement
 Float             -> Constant
-Function          -> Identifier
 Include           -> PreProc
 Keyword           -> Statement
 Label             -> Statement
@@ -124,9 +123,10 @@ Visual               white             gray
 VisualNOS            white             gray
 WarningMsg           red               white
 WildMenu             brown             yellow
-Comment              green             none              italic
+Comment              green             none
 Constant             cyan              none
 Error                red               black             reverse
+Function             darkblue          none              bold
 Identifier           darkblue          none
 Ignore               black             none
 PreProc              magenta           none              bold
