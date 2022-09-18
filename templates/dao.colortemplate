@@ -118,7 +118,7 @@ TabLine              white             brown
 TabLineFill          white             brown
 TabLineSel           yellow            brown
 Title                white             brown             bold
-VertSplit            brown             brown
+VertSplit            white             brown
 Visual               white             gray
 VisualNOS            white             gray
 WarningMsg           red               white
