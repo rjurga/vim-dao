@@ -119,7 +119,7 @@ TabLineFill          white             brown
 TabLineSel           yellow            brown
 Title                white             brown             bold
 VertSplit            white             brown
-Visual               white             gray
+Visual               gray              none              reverse
 VisualNOS            white             gray
 WarningMsg           red               white
 WildMenu             brown             yellow
